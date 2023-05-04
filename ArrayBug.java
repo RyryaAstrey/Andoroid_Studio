@@ -1,13 +1,13 @@
-class ArrayBug{
-  public static void main(String[] args){
-    String[] name = new String[4];
-    
-    name[0] = "÷ˆä";
-    name[1] = "“cŒ´";
-    name[2] = "’†ì";
-    name[3] = "—é–Ø";
-    name[4] = "¬—Ñ";
-    
+class ArrayBug {
+  public static void main(String[] args) {
+    String[] name = new String[5];
+
+    name[0] = "æ¡œäº•";
+    name[1] = "ç”°åŸ";
+    name[2] = "ä¸­å·";
+    name[3] = "éˆ´æœ¨";
+    name[4] = "å°æ—";
+
     System.out.println(name[0]);
     System.out.println(name[1]);
     System.out.println(name[2]);
