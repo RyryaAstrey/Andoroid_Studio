@@ -1,6 +1,11 @@
-class LoopMessage{
-  public static void main(String[] args){
-    //ƒƒbƒZ[ƒW‚ğ10‰ñ•\¦iwhile•¶j
+class LoopMessage {
+  public static void main(String[] args) {
+    // ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ï¼‘ï¼å›è¡¨ç¤º(whileæ–‡)
+    int i = 0;
+    while (i < 10) {
+      System.out.println("ãƒ•ãƒªãƒ¼ãƒ©ãƒ¼ãƒ‹ãƒ³ã‚°ã‚’åºƒã’ãŸã„ï¼");
+      i++;
+    }
 
   }
 }

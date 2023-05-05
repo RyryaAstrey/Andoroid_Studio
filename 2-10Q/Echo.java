@@ -1,6 +1,9 @@
-class Echo{
-  public static void main(String[] args){
-    //ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚Ì“ü—Í•¶š—ñ‚ğ•\¦ifor•¶j
+class Echo {
+  public static void main(String[] args) {
+    // ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã®å…¥åŠ›æ–‡å­—åˆ—ã‚’è¡¨ç¤ºï¼ˆforæ–‡ï¼‰
+    for (int i = 0; i < args.length; i++) {
+      System.out.println(args[i]);
+    }
 
   }
 }
