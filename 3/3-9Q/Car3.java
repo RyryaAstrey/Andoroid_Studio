@@ -1,23 +1,33 @@
-class Car3{
+class Car3 {
   private int no;
   private int speed;
 
-  public Car3(){
-    no = 0;
+  public Car3() {
+      no = 0;
   }
-  public Car3(int n){
+
+  public Car3(int n) {
+      no = n;
+  }
+
+  void setNo(int n) {
     no = n;
   }
-  public void run(int s){
+
+  void run(int s) {
     speed = s;
   }
-  public void brake(){
-    speed = 0;
+
+  // brakeãƒ¡ã‚½ãƒƒãƒ‰ã‚’å®šç¾©ã™ã‚‹
+  void brake() {
+    no = 0;
   }
-  public void brake(int s){
+
+  void brake(int s) {
     speed = speed - s;
   }
-  public void display(){
-    System.out.println("ƒiƒ“ƒo[" + no + "‚Ì‘¬“x‚Í" + speed + "‚Å‚·");
+
+  void display() {
+    System.out.println("ãƒŠãƒ³ãƒãƒ¼" + no + "ã®é€Ÿåº¦ã¯" + speed + "ã§ã™");
   }
 }

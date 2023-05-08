@@ -1,18 +1,20 @@
-class Car4{
+class Car4 {
   private int no;
-  private int count = 0;
+  private static int count = 0;
 
-  public Car4(){
+  public Car4() {
     no = 0;
     count++;
-    System.out.println("ƒiƒ“ƒo[‚È‚µ‚ğì‚è‚Ü‚µ‚½");
+    System.out.println("ãƒŠãƒ³ãƒãƒ¼ãªã—ã‚’ä½œã‚Šã¾ã—ãŸ");
   }
-  public Car4(int n){
+
+  public Car4(int n) {
     no = n;
     count++;
-    System.out.println("ƒiƒ“ƒo[" + no + "‚ğì‚è‚Ü‚µ‚½");
+    System.out.println("ãƒŠãƒ³ãƒãƒ¼" + no + "ã‚’ä½œã‚Šã¾ã—ãŸ");
   }
-  public void display(){
-    System.out.println(count + "‘äì¬Ï‚Å‚·");
+
+  public void display() {
+    System.out.println(count + "å°ä½œæˆæ¸ˆã§ã™");
   }
 }
