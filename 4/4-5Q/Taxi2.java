@@ -2,12 +2,11 @@ public class Taxi2 extends Car2 {
     private int price;
 
     public Taxi2(int no) {
-        super(no);
-        price = 0;
+        this(no, 0); // 下のメソッドにかかっている。
     }
 
     public Taxi2(int no, int price) {
-        super(no);
+        super(no); // ここでCar2クラスのnoを呼び出してnoを定義している。
         this.price = price;
     }
 
