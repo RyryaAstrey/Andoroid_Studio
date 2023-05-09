@@ -5,6 +5,6 @@ public class Car1{
     no = n;
   }
   public void display(){
-    System.out.println("ƒiƒ“ƒo[‚Í" + no + "‚Å‚·");
+    System.out.println("ãƒŠãƒ³ãƒãƒ¼ã¯" + no + "ã§ã™");
   }
 }
