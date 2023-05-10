@@ -1,10 +1,17 @@
-public class Taxi{
-  private int crewNum;
-  
-  public Taxi(int crewNum){
-    this.crewNum = crewNum;
+package mypack;
+
+public class Taxi extends Vehicle implements Stopable {
+
+  public Taxi(int crewNum) {
+    super(crewNum);
   }
-  void showCrewNum(){
-    System.out.println("ƒ^ƒNƒV[‚Ìæ‹qF" + crewNum + "–¼");
+
+  public void showCrewNum() {
+    System.out.println("ã‚¿ã‚¯ã‚·ãƒ¼ã®ä¹—å®¢ï¼š" + super.vehicle + "å");
   }
+
+  void stop() {
+    System.out.println("ã“ã“ã§é™ã‚Šã¾ã™");
+  }
+
 }

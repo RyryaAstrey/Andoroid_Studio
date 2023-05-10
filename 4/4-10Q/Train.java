@@ -1,10 +1,12 @@
-public class Train{
-  private int crewNum;
+package mypack;
 
-  public Train(int crewNum){
-    this.crewNum = crewNum;
+public class Train extends Vehicle {
+
+  public Train(int crewNum) {
+    super(crewNum);
   }
-  void showCrewNum(){
-    System.out.println("“dÔ‚Ìæ‹qF" + crewNum + "–¼");
+
+  public void showCrewNum() {
+    System.out.println("é›»è»Šã®ä¹—å®¢" + super.Vehicle + "å");
   }
 }
