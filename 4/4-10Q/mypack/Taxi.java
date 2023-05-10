@@ -3,14 +3,14 @@ package mypack;
 public class Taxi extends Vehicle implements Stopable {
 
   public Taxi(int crewNum) {
-    super(crewNum);
+    this.crewNum = crewNum;
   }
 
   public void showCrewNum() {
-    System.out.println("タクシーの乗客：" + super.vehicle + "名");
+    System.out.println("タクシーの乗客：" + crewNum + "名");
   }
 
-  void stop() {
+  public void stop() {
     System.out.println("ここで降ります");
   }
 
