@@ -1,20 +1,20 @@
 public class TryDivide1{
   public static void main(String[] args){
     try{
-      System.out.println("ˆ—ŠJn");
+      System.out.println("å‡¦ç†é–‹å§‹");
       int[] a = new int[3];
       for(int i = 0; i < args.length; i++){
         a[i] = Integer.parseInt(args[i]);
         System.out.println(a[i]);
       }
     }catch(NumberFormatException e){
-      System.out.println("—áŠOFNumberFormatException");
+      System.out.println("ä¾‹å¤–ï¼šNumberFormatException");
     }catch(ArrayIndexOutOfBoundsException e){
-      System.out.println("—áŠOFArrayIndexOutOfBoundsException");
+      System.out.println("ä¾‹å¤–ï¼šArrayIndexOutOfBoundsException");
     }catch(Exception e){
-      System.out.println("—áŠOFException");
+      System.out.println("ä¾‹å¤–ï¼šException");
     }finally{
-      System.out.println("ˆ—I—¹");
+      System.out.println("å‡¦ç†çµ‚äº†");
     }
   }
 }
