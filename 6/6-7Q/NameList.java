@@ -1,24 +1,24 @@
-/* ‚±‚±‚ğ–„‚ß‚é */
+import java.util.ArrayList;
 
 public class NameList{
   public static void main(String[] args){
-    /* ‚±‚±‚ğ–„‚ß‚é */
-    names.add("÷ˆä");
-    names.add("“cŒ´");
-    names.add("’†ì");
-    names.add("—é–Ø");
+    ArrayList<String> names = new ArrayList<String>();
+    names.add("æ¡œäº•");
+    names.add("ç”°åŸ");
+    names.add("ä¸­å·");
+    names.add("éˆ´æœ¨");
     String search = args[0];
     boolean result = false;
 
-    for(int i = 0; i < /* ‚±‚±‚ğ–„‚ß‚é */; i++){
-      if(/* ‚±‚±‚ğ–„‚ß‚é */){
+    for(int i = 0; i < names.size(); i++){
+      if(names.get(i).equals(search)){
         result = true;
       }
     }
     if(result){
-      System.out.println(search + "‚³‚ñ‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·");
+      System.out.println(search + "ã•ã‚“ã¯å«ã¾ã‚Œã¦ã„ã¾ã™");
     } else {
-      System.out.println(search + "‚³‚ñ‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñ");
+      System.out.println(search + "ã•ã‚“ã¯å«ã¾ã‚Œã¦ã„ã¾ã›ã‚“");
     }
   }
 }

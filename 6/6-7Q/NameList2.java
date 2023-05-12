@@ -1,25 +1,26 @@
-/* ‚±‚±‚ğ–„‚ß‚é */
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class NameList2{
   public static void main(String[] args){
     ArrayList<String> names = new ArrayList<String>();
-    names.add("÷ˆä");
-    names.add("“cŒ´");
-    names.add("’†ì");
-    names.add("—é–Ø");
+    names.add("æ¡œäº•");
+    names.add("ç”°åŸ");
+    names.add("ä¸­å·");
+    names.add("éˆ´æœ¨");
     String search = args[0];
     boolean result = false;
 
-    /* ‚±‚±‚ğ–„‚ß‚é */;
-    while(/* ‚±‚±‚ğ–„‚ß‚é */){
-      if(/* ‚±‚±‚ğ–„‚ß‚é */){
+    Iterator<String> it = names.iterator();
+    while(it.hasNext()){
+      if(it.next().equals(search)){
         result = true;
       }
     }
     if(result){
-      System.out.println(search + "‚³‚ñ‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·");
+      System.out.println(search + "ã•ã‚“ã¯å«ã¾ã‚Œã¦ã„ã¾ã™");
     } else {
-      System.out.println(search + "‚³‚ñ‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñ");
+      System.out.println(search + "ã•ã‚“ã¯å«ã¾ã‚Œã¦ã„ã¾ã›ã‚“");
     }
   }
 }

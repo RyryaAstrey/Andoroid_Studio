@@ -1,18 +1,18 @@
-public class NameArray{
-  public static void main(String[] args){
-    String[] names = {"÷ˆä", "“cŒ´", "’†ì", "—é–Ø"};
+public class NameArray {
+  public static void main(String[] args) {
+    String[] names = { "æ¡œäº•", "ç”°åŸ", "ä¸­å·", "éˆ´æœ¨" };
     String search = args[0];
-    boolean result = false;     // ŒŸõŒ‹‰Ê‚ğŠi”[
+    boolean result = false; // æ¤œç´¢çµæœã‚’æ ¼ç´
 
-    for(int i = 0; i < names.length; i++){
-      if(/* ‚±‚±‚ğ–„‚ß‚é */)){
-        /* ‚±‚±‚ğ–„‚ß‚é */
+    for (int i = 0; i < names.length; i++) {
+      if (names[i].equals(search)) {
+        result = true;
       }
     }
-    if(/* ‚±‚±‚ğ–„‚ß‚é */){
-      System.out.println(search + "‚³‚ñ‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·");
+    if (result) {
+      System.out.println(search + "ã•ã‚“ã¯å«ã¾ã‚Œã¦ã„ã¾ã™");
     } else {
-      System.out.println(search + "‚³‚ñ‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñ");
+      System.out.println(search + "ã•ã‚“ã¯å«ã¾ã‚Œã¦ã„ã¾ã›ã‚“");
     }
   }
 }
